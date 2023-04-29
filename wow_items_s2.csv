@@ -1,0 +1,311 @@
+*Slot;Type;*Item;Main Stat;Operator;Sec Stat;Dungeon
+Head;Cloth;Mask of Imperishable Leaves;V;>;M;Brackenhide Hollow
+Head;Cloth;Cragshaper's Fitted Hood;H;>;C;Neltharion's Lair
+Shoulders;Cloth;Molten Magma Mantle;H;>;C;Neltharus
+Shoulders;Cloth;Boastful Stalker's Epaulets;V;>;H;Brackenhide Hollow
+Shoulders;Cloth;Roggthread Mantle;H;>>;V;Neltharion's Lair
+Chest;Cloth;Robe of Plunging Depths;C;>;M;Halls of Infusion
+Chest;Cloth;Blood-Drenched Robes;V;>;H;Underrot
+Chest;Cloth;Tunic of Smoldering Ire;C;>>;M;Neltharion's Lair
+Wrist;Cloth;Lily-Laced Bracelets;V;>;M;Halls of Infusion
+Wrist;Cloth;Animated Shackles;C;>;H;Uldaman
+Wrist;Cloth;Wristwraps of Twined Morels;V;;C;Underrot
+Wrist;Cloth;Silk Cuffs of the Skycap'n;V;;M;Freehold
+Wrist;Cloth;Sunfrost Wristwraps;H;>>;C;Neltharion's Lair
+Hands;Cloth;Warlord's Cindermitts;M;>;H;Neltharus
+Hands;Cloth;Gloves of Staunched Wounds;H;;V;Underrot
+Hands;Cloth;Greasy Bacon-Grabbers;V;;C;Freehold
+Hands;Cloth;Gloves of the Mountain Conquest;H;>;M;Neltharion's Lair
+Waist;Cloth;Flare-Signed Strap;V;>;C;Neltharus
+Waist;Cloth;Lost Hero's Waist Wrap;M;>;H;Uldaman
+Waist;Cloth;Sailcloth Waistband;C;;H;Freehold
+Waist;Cloth;Roggthread Cord;H;>>;V;Neltharion's Lair
+Waist;Cloth;Stratosphere Belt;M;>;C;Vortex Pinnacle
+Legs;Cloth;Crazed Traveler's Legwraps;H;>;V;Uldaman
+Legs;Cloth;Miner's Sturdy Trouser's;C;>;M;Uldaman
+Legs;Cloth;Darklight Legwarmers;C;;H;Underrot
+Legs;Cloth;Chum-Coated Leggings;M;;C;Freehold
+Legs;Cloth;Riverrider Legwraps;M;>;H;Neltharion's Lair
+Legs;Cloth;Leggings of Iridescent Clouds;H;>;C;Vortex Pinnacle
+Feet;Cloth;Khajin's Hailstone Footwraps;M;>;V;Halls of Infusion
+Feet;Cloth;Treads of Restored Order;H;>;V;Halls of Infusion
+Feet;Cloth;Ravenous Pursuer's Footwraps;V;>;H;Brackenhide Hollow
+Feet;Cloth;Ancient Crosswrapped Sandals;H;>;C;Uldaman
+Feet;Cloth;Blood Warder's Moccasins;V;;M;Underrot
+Feet;Cloth;Dashing Bilge Rat Shoes;C;;M;Freehold
+Feet;Cloth;Offal Galoshes;M;>;V;Neltharion's Lair
+Feet;Cloth;Sandals of the Westwind;C;=;M;Vortex Pinnacle
+Head;Leather;Vision of Foreshadowed Ends;H;>;M;Uldaman
+Head;Leather;Steelgazer Hide Hood;H;>>;V;Neltharion's Lair
+Shoulders;Leather;Ancient Hornsword Spaulders;H;>;V;Halls of Infusion
+Shoulders;Leather;Shoulder's of Animated Stone;M;>;C;Uldaman
+Shoulders;Leather;Steelgazer Hide Mantle;H;>;V;Neltharion's Lair
+Shoulders;Leather;Mantle of Bestilled Winds;M;=;H;Vortex Pinnacle
+Chest;Leather;Dragonkilm Chestguard;V;>;H;Neltharus
+Chest;Leather;Gore-Splattered Vest;H;>;M;Underrot
+Chest;Leather;Vest of Rupturing Diamonds;C;>>;V;Neltharion's Lair
+Wrist;Leather;Ferocious Hyena Hidebinders;V;>;C;Brackenhide Hollow
+Wrist;Leather;Blood Elder's Bindings;C;;M;Underrot
+Wrist;Leather;Sea Dog's Cuffs;V;;H;Freehold
+Wrist;Leather;Wristbands of Rousing Violence;M;>>;H;Neltharion's Lair
+Hands;Leather;Blightweaver's Clutches;C;>;H;Brackenhide Hollow
+Hands;Leather;Underrot Grotto Tenders;H;;C;Underrot
+Hands;Leather;Sharkhide Grips;M;;V;Freehold
+Hands;Leather;Gravelworn Handguards;H;>;C;Neltharion's Lair
+Hands;Leather;Gloves of Haze;C;=;M;Vortex Pinnacle
+Waist;Leather;Watcher's Clasp of Purpose;V;>;M;Halls of Infusion
+Waist;Leather;Troggskin Waistband;C;>;V;Uldaman
+Waist;Leather;Bloodfeaster Belt;H;;M;Underrot
+Waist;Leather;Sinister Ashfall Cord;C;>>;M;Neltharion's Lair
+Legs;Leather;Lavabearer Legwraps;M;>;V;Neltharus
+Legs;Leather;Annora's Punctured Leggings;V;>;H;Uldaman
+Legs;Leather;Pustule Bearer's Pants;C;;V;Underrot
+Legs;Leather;Silver-Trimmed Breeches;M;;H;Freehold
+Legs;Leather;Charrskin Legguards;M;>;C;Neltharion's Lair
+Feet;Leather;Swoglet Stompers;V;>;M;Halls of Infusion
+Feet;Leather;Ancient Rotwalkers;C;>;M;Brackenhide Hollow
+Feet;Leather;Treads of the Swift;M;>;C;Uldaman
+Feet;Leather;Kragg's Rigging Scalers;C;;M;Freehold
+Feet;Leather;Rivermane Sandals;H;>>;C;Neltharion's Lair
+Head;Mail;Helm of Hardened Gold;H;>;C;Neltharus
+Head;Mail;Amphibian's Bellowing Crown;C;>;M;Halls of Infusion
+Head;Mail;Mountain Throne Coif;H;>;V;Neltharion's Lair
+Shoulders;Mail;Rooted Shoulder of Putrefaction;H;>;V;Brackenhide Hollow
+Shoulders;Mail;Skyhorn Mantle;H;>;C;Neltharion's Lair
+Shoulders;Mail;Fallen Snow Shoulderguards;H;>;C;Vortex Pinnacle
+Chest;Mail;Emberguard Harness;H;>;M;Neltharus
+Chest;Mail;Hauberk of Frozen Fervor;V;>;C;Halls of Infusion
+Chest;Mail;Fatebound Chainmail;C;>;V;Uldaman
+Chest;Mail;Tunic of Screaming Earth;C;>>;H;Neltharion's Lair
+Wrist;Mail;Obsidian-Hardened Wraps;V;>;C;Neltharus
+Wrist;Mail;Fierce Boreal Armguards;H;>;M;Uldaman
+Wrist;Mail;Raoul's Barrelhook Bracers;H;;V;Freehold
+Wrist;Mail;Bitestone Wristwrap;H;>>;V;Neltharion's Lair
+Hands;Mail;Torrential Downpour Gauntlets;H;>;V;Halls of Infusion
+Hands;Mail;Rock Shoveler's;V;>;H;Uldaman
+Hands;Mail;Blood Tick Crushers;C;;V;Underrot
+Hands;Mail;Bite-Resistant Chain Gloves;V;;H;Freehold
+Hands;Mail;Gauntlets of Innumerable Barbs;M;>>;C;Neltharion's Lair
+Waist;Mail;Swollen Bark Clasp;C;>;H;Brackenhide Hollow
+Waist;Mail;Gatekeeper's Girdle;C;>;V;Uldaman
+Waist;Mail;Waistguard of Sanguine Fervor;H;;V;Underrot
+Waist;Mail;Chain-Linked Safety Cord;V;;M;Freehold
+Waist;Mail;Boulderbuckle Strap;H;>;M;Neltharion's Lair
+Waist;Mail;Hail-Strung Belt;C;>;M;Vortex Pinnacle
+Legs;Mail;Tassets of Densified Ooze;M;>;V;Brackenhide Hollow
+Legs;Mail;Corpuscular Greaves;H;;C;Underrot
+Legs;Mail;Faultline Leggings;C;>;M;Neltharion's Lair
+Feet;Mail;Pristine Magma Stompers;C;>;H;Neltharus
+Feet;Mail;Warders of the Infested;M;;V;Underrot
+Feet;Mail;Shell-Kickers;M;;C;Freehold
+Feet;Mail;Bitestone Boots;H;>;V;Neltharion's Lair
+Head;Plate;Earthsahker's Steel Visor;M;>;V;Halls of Infusion
+Head;Plate;Decay Mother's Wrathful Gaze;V;>;H;Brackenhide Hollow
+Head;Plate;Old Seafarer's Headpiece;H;>;C;Uldaman
+Head;Plate;Subterranean Horror Faceguard;M;>;H;Neltharion's Lair
+Head;Plate;Headcover of Fog;M;>;C;Vortex Pinnacle
+Head;Plate;Lunar Halo;C;=;H;Vortex Pinnacle
+Shoulders;Plate;Mantle of Crushing Waves;V;>;M;Halls of Infusion
+Shoulders;Plate;Pauldrons of Immutable Truth;C;>;H;Uldaman
+Shoulders;Plate;Tremorguard Pauldrons;M;>;C;Neltharion's Lair
+Chest;Plate;Breastplate of Arterial Protection;C;>;H;Underrot
+Chest;Plate;Rockbound Chestguard;H;>;V;Neltharion's Lair
+Wrist;Plate;Binders of the Moldering;V;>;H;Brackenhide Hollow
+Wrist;Plate;Excavated Earthen Wristlabs;H;>;C;Uldaman
+Wrist;Plate;Phosphorescent Armplates;C;;M;Underrot
+Wrist;Plate;Concealed Fencing Plates;V;;C;Freehold
+Wrist;Plate;Deepfurrow Bracers;C;>;H;Neltharion's Lair
+Hands;Plate;Forgemaster's Grips;H;>;V;Neltharus
+Hands;Plate;Gauntlets of Incalculable Power;M;>;C;Halls of Infusion
+Hands;Plate;Keeper's Iron Grips;C;>;M;Uldaman
+Hands;Plate;Sharktooth-Knuckled Grips;V;;H;Freehold
+Hands;Plate;Rumblestone Handguards;V;>;H;Neltharion's Lair
+Waist;Plate;Ravenous Omnivore's Girdle;C;>;M;Halls of Infusion
+Waist;Plate;Trapmaster's Utility Belt;H;>;V;Brackenhide Hollow
+Waist;Plate;Zancha's Venerated Greatbelt;M;;V;Underrot
+Waist;Plate;Sharkbait Harness Girdle;H;;V;Freehold
+Waist;Plate;Greystone Belt;H;>;C;Neltharion's Lair
+Legs;Plate;Fural's Blazing Faulds;M;>;H;Neltharus
+Legs;Plate;Legplates of Profane Sacrifice;H;;C;Underrot
+Legs;Plate;Sharkwater Waders;M;;H;Freehold
+Legs;Plate;Rocksolid Legplates;H;>>;M;Neltharion's Lair
+Legs;Plate;Legguards of Winnowing Wind;M;>;C;Vortex Pinnacle
+Feet;Plate;Pristine Magma Stompers;C;>;H;Neltharus
+Feet;Plate;Flourescent Flora Stompers;H;;V;Underrot
+Feet;Plate;Rockbound Sabatons;H;>>;V;Neltharion's Lair
+Feet;Plate;Darksky Treads;C;=;M;Vortex Pinnacle
+Back;Back;Mammoth-Trainer's Drape;M;>;C;Neltharus
+Back;Back;Sporecaller's Shroud;V;>;C;Underrot
+Back;Back;Parrotfeather Cloak;C;>;M;Freehold
+Back;Back;Putrid Carapace;M;>;C;Neltharion's Lair
+Back;Back;Billowing Cape;V;=;M;Vortex Pinnacle
+Back;Back;Shadow of Perfect Bliss;C;>;H;Vortex Pinnacle
+Back;Back;Billowing Skydrape;C;~;M;Vortex Pinnacle
+Neck;Neck;Tuskarr Bone Necklace;C;>;V;Brackenhide Hollow
+Neck;Neck;Bromach's Disentombed Locket;H;>>;M;Uldaman
+Neck;Neck;Chain of the Underking;C;>;M;Neltharion's Lair
+Neck;Neck;Understone Gorget;C;>>;V;Neltharion's Lair
+Neck;Neck;Ionized Choker;V;>;H;Vortex Pinnacle
+Neck;Neck;Choker of Stolen Thunder;M;>>;H;Vortex Pinnacle
+Neck;Neck;Red Sky Pendant;C;>>;M;Vortex Pinnacle
+Ring;Ring;Scalebane Signet;M;>>;C;Neltharus
+Ring;Ring;Circle of Ascended Frost;H;>>;V;Halls of Infusion
+Ring;Ring;Bloodied Wedding Ring;M;>;V;Brackenhide Hollow
+Ring;Ring;Eternal Sentry's Ring;C;>>;H;Uldaman
+Ring;Ring;Loop of Pulsing Veins;H;>;M;Underrot
+Ring;Ring;Seal of Questionable Loyalties;H;>>;C;Freehold
+Ring;Ring;Loop of Vitriolic Intent;H;>>;M;Neltharion's Lair
+Ring;Ring;Band of the Wyrm Matron;C;>;V;Neltharion's Lair
+Ring;Ring;Ring of Frozen Rain;V;>;C;Vortex Pinnacle
+Ring;Ring;Skyshard Ring;C;>;H;Vortex Pinnacle
+One Hand;Dagger - Agi;Croaking Dagger;V;>;C;Halls of Infusion
+One Hand;Dagger - Agi;Rot-Carved Totemic Shank;C;>;V;Brackenhide Hollow
+One Hand;Dagger - Agi;Unearthed Trogglodicer;V;>;H;Uldaman
+One Hand;Dagger - Agi;Heart-Piercing Stalactite;M;;C;Underrot
+One Hand;Dagger - Agi;Jolly's Boot Dagger;V;;M;Freehold
+One Hand;Dagger - Int;Searing Tusk Shard;M;>;V;Neltharus
+One Hand;Dagger - Int;Biting Wind;C;>;H;Vortex Pinnacle
+One Hand;Fist Weapon - Agi;Dragonscale Ripper;C;>;V;Neltharus
+One Hand;Fist Weapon - Agi;Bile-Stained Crawg Tusks;-;;-;Underrot
+One Hand;1h Axe - Str;Tongue Hacker;V;>;H;Halls of Infusion
+One Hand;1h Axe - Str;Axe of the Eclipse;M;>;C;Vortex Pinnacle
+One Hand;1h Mace - Str;Sharkbait's Fishhook;V;;C;Freehold
+One Hand;1h Mace - T | D;Forgestorm;H;~;C;Neltharus
+One Hand;1H Mace - Int;Decatriarch's Bone Pestle;M;>;C;Brackenhide Hollow
+One Hand;1H Mace - Int;Leaxa's Thought-Piercer;H;;C;Underrot
+One Hand;1h Mace - Agi;Bouldersplitter;V;>;M;Uldaman
+One Hand;1h Mace - Agi;Bloody Tiderunner;H;;C;Freehold
+Two Hand;2H Axe - Str;Corruption Borne Headlopper;M;;V;Underrot
+Two Hand;2H Axe - Str;Hate-Sculpted Magma;H;>;V;Neltharion's Lair
+Two Hand;2H Axe - Str;Thundercleaver Axe;M;=;H;Vortex Pinnacle
+Two Hand;2H Mace - Str;Sargha's Smasher;H;>;C;Neltharus
+Two Hand;2H Mace - Str;Bough of Deterioration;M;>;C;Brackenhide Hollow
+Two Hand;2H Sword - Str;Undertow Tideblade;C;>;M;Halls of Infusion
+Two Hand;2H Sword - Str;Jeweled Sharksplitter;H;;V;Freehold
+Two Hand;Polearm - Agi;Poached Kalu'ak Spear;C;>;H;Brackenhide Hollow
+Two Hand;Polearm - Agi;Vile Exsanguinator;M;;H;Underrot
+Two Hand;Polearm - Agi;Sentinel's Battle Lance;V;>;M;Uldaman
+Two Hand;2H Mace - Int;Ancestral Stoneshaper;M;>;H;Brackenhide Hollow
+Two Hand;Staff - Int;Infinite Dragonspire;H;>;C;Uldaman
+Two Hand;Crossbow;Gutshot's Trophy Hunter;M;>;H;Brackenhide Hollow
+Two Hand;Gun;Titan-Forged Blaster;M;>;V;Halls of Infusion
+Two Hand;Gun;Vault Piercer;H;>;M;Uldaman
+Two Hand;Gun;Captain's Diplomacy;V;;C;Freehold
+Two Hand;Gun;Thundercall;M;>;H;Vortex Pinnacle
+Two Hand;Gun;Lightning Flash;C;>;H;Vortex Pinnacle
+Off-hand;OH - Int;Irontorch Igniter;C;>;H;Neltharus
+Off-hand;OH - Int;Rod of Perfect Order;H;>;M;Halls of Infusion
+Off-hand;OH - Int;Rod of Crystalline Energies;H;>;C;Neltharion's Lair
+Off-hand;Shield;Targe of the Ancient Warder;C;;M;Underrot
+Off-hand;Shield;Qalashi Defender;C;>;M;Neltharus
+Off-hand;Shield;Stout Shield;C;>;M;Uldaman
+Off-hand;Shield;Monstrous Gluttony;V;~;C;Neltharion's Lair
+Head;Cloth;Attendant's Concocting Cover;H;>>;M;Amalgamation
+Shoulder;Cloth;Mystic's Scalding Frame;M;>>;V;Zaqali
+Chest;Cloth;Reanimator's Wicked Cassock;M;>>;H;Kazzara
+Wrist;Cloth;Clasps of the Diligent Steward;C;>>;H;Zskarn
+Wrist;Cloth;Unstable Vial Handlers;C;>>;M;Amalgamation
+Hands;Cloth;Phoenix-Plume Gloves;V;>>;H;Zaqali
+Waist;Cloth;Discarded Creation's Restraint;H;>>;V;Experiments
+Waist;Cloth;Sash of Abandoned Hope;C;>>;V;Kazzara
+Legs;Cloth;Coattails of the Rightful Heir;V;>;M;Sarkareth
+Feet;Cloth;Sandals of Ancient Fury;V;>>;C;Rashok
+Feet;Cloth;Treads of Fractured Realities;V;>>;H;Neltharion
+Head;Leather;Violent Gravemask;M;>>;V;Kazzara
+Shoulder;Leather;Neldris's Sinewy Scapula;H;>>;V;Experiments
+Chest;Leather;Warlord's Volcanic Vest;C;>>;M;Zaqali
+Wrist;Leather;Bloodstench Skinguards;V;>>;H;Kazzara
+Wrist;Leather;Cuffs of the Savage Serpent;V;>>;M;Magmorax
+Hands;Leather;Oathbreaker's Obsessive Gauntlets;V;>>;C;Sarkareth
+Waist;Leather;Elder's Volcanic Binding;V;>>;H;Rashok
+Waist;Leather;Oblivion's Immortal Coil;C;>>;M;Sarkareth
+Legs;Leather;Tassets of Blistering Twilight;M;>>;C;Amalgamation
+Feet;Leather;Failed Applicant's Footpads;C;>>;V;Zskarn
+Feet;Leather;Flamebound Huntsman's Footpads;V;>>;M;Zaqali
+Head;Mail;Gatecrasher Giant's Coif;H;>>;M;Zaqali
+Shoulder;Mail;Kazzara's Grafted Companion;C;>>;H;Kazzara
+Chest;Mail;Cuirass of Meticulous Mixture;V;>>;H;Amalgamation
+Wrist;Mail;Boulder-Tossing Bands;H;>>;C;Zaqali
+Wrist;Mail;Shackles of the Shadowed Bastille;H;>>;V;Rashok
+Hands;Mail;Grasps of Welded Anguish;M;>>;H;Kazzara
+Waist;Mail;Gloomfused Chemistry Belt;V;>>;M;Amalgamation
+Waist;Mail;Hydratooth Girdle;V;>>;C;Magmorax
+Legs;Mail;Scalecommander's Ebon Schynbalds;C;>>;V;Sarkareth
+Feet;Mail;Crechebound Soldier's Boots;M;>>;H;Sarkareth
+Feet;Mail;Exacting Augmenter's Sabatons;M;>>;C;Experiments
+Head;Plate;Unyielding Goliath's Burgonet;M;>>;V;Rashok
+Shoulder;Plate;Shoulderplates of Planar Isolation;C;>>;M;Amalgamation
+Chest;Plate;Sarkareth's Abyssal Embrace;M;>>;C;Sarkareth
+Wrist;Plate;Bonds of Desperate Ascension;H;>>;C;Sarkareth
+Wrist;Plate;Manacles of Cruel Progress;H;>>;M;Experiments
+Hands;Plate;Twisted Vision's Demigaunts;V;>>;M;Neltharion
+Waist;Plate;Recycled Golemskin Waistguard;H;>>;M;Zskarn
+Waist;Plate;Seal of the Defiant Hordes;H;>>;C;Zaqali
+Legs;Plate;Obsidian Guard's Chausses;H;>>;V;Zaqali
+Feet;Plate;Dreadrift Stompers;C;>>;V;Kazzara
+Feet;Plate;Spittle-Resistant Sollerets;C;>>;H;Magmorax
+Back;Back;Etchings of the Captive Revenant;C;>>;H;Kazzara
+Back;Back;Drape of the Dracthyr Trials;V;>>;M;Zskarn
+Back;Back;Voice of the Silent Star;C;>>;H;Sarkareth
+Neck;Neck;Kagni's Scorching Talisman;C;>>;H;Zaqali
+Neck;Neck;Magmorax's Fourth Collar;M;>>;V;Magmorax
+Finger;Finger;Entropic Convergence Loop;M;>>;H;Amalgamation
+Finger;Finger;Tormentor's Siphoning Signet;V;>>;C;Rashok
+Finger;Finger;Onyx Impostor's Birthright;C;>>;H;Neltharion
+One Hand;Dagger - Agi;Hellsteel Mutilator;H;>>;V;Kazzara
+One Hand;Dagger - Agi;Fang of the Sundered Flame;V;>>;C;Sarkareth
+One Hand;Dagger - Int;Zskarn's Autopsy Scalpel;C;>>;M;Zskarn
+One Hand;Fist Weapon - Agi;Claws of the Blazing Behemoth;M;>>;H;Magmorax
+One Hand;1H Axe - Agi;Wallclimber's Incursion Hatchet;C;>>;V;Zaqali
+One Hand;1H Axe - Str;Proctor's Tactical Cleaver;H;>;C;Zskarn
+One Hand;1H Mace - Str;Scholar's Thinking Cudgel;V;>>;H;Amalgamation
+One Hand;1H Mace - Int;Bloodfire Extraction Conduit;H;>>;V;Rashok
+One Hand;1H Mace - Int;Lavaflow Control Rod;H;>>;V;Magmorax
+One Hand;Warglaives;Rionthus's Bladed Visage;H;>>;C;Experiments
+Two Hand;2H Axe - Str;Ashkandur: Fall of the Brotherhood;M;~;C;Neltharion
+Two Hand;Polearm - Str;Infernal Shadelance;H;>;M;Kazzara
+Two Hand;Polearm - Agi;Djaruun: Pillar of the Elder Flame;H;>>;M;Rashok
+Two Hand;Staff - Agi;Obsidian Stirring Staff;V;>>;M;Amalgamation
+Two Hand;Staff - Int;Erethos: the Empty Promise;V;>>;H;Sarkareth
+Two Hand;Bow;Brutal Dragonslayer's Trophy;C;>>;H;Zaqali
+Two Hand;Gun;Failure Disposal Cannon;H;~;M;Zskarn
+Off-hand;OH - Int;Thadrion's Erratic Arcanotrode;M;>>;H;Experiments
+Off-hand;OH - Int;Echo's Maddening Volume;M;>>;H;Neltharion
+Off-hand;Shield;Experiment 1: Kitewing;V;>>;C;Experiments
+Off-hand;Shield;Calamity's Herald;M;>>;H;Neltharion
+Trinket;Tank;Enduring Dreadplate;Agi|Str;;On Use;Kazzara
+Trinket;All;Screaming Black Dragonscale;All;;Proc;Kazzara
+Trinket;MPDS;Elementium Pocket Anvil;Agi|Str;;On Use;Amalgamation
+Trinket;RDPS;Vessel of Searing Shadow;Int;;Proc;Amalgamation
+Trinket;All;Ominous Chromatic Essence;All;;Passive;Experiments
+Trinket;MPDS;Zaqali Chaos Grapnel;Str;;On Use;Zaqali
+Trinket;Healer;Rashok's Molten Heart;Int;;Proc;Rashok
+Trinket;MPDS;Dragonfire Bomb Dispenser;Agi;;On Use;Zskarn
+Trinket;RDPS;Igneous Flowstone;Agi|Int;;Passive;Magmorax
+Trinket;T | H;Ward of Faceless Ire;All;;On Use;Neltharion
+Trinket;Class;Neltharion's Call to Chaos;Crit;;Proc;Neltharion
+Trinket;Class;Neltharion's Call to Dominance;Haste;;Proc;Neltharion
+Trinket;Class;Neltharion's Call to Suffering;Vers;;Proc;Neltharion
+Trinket;All;Beacon to the Beyond;M;;On Use;Sarkareth
+Trinket;Tank;Treemouth's Festering Splinter;Agi|Str;;On Use;Brackenhide Hollow
+Trinket;MDPS;Frenzying Signol Flare;Str;;Proc;Brackenhide Hollow
+Trinket;RDPS;Idol of Pure Decay;Int;;Proc;Brackenhide Hollow
+Trinket;All;Irideus Fragment;Mastery;;On Use;Halls of Infusion
+Trinket;MDPS;Globe of Jagged Ice;Agi;;On Use;Halls of Infusion
+Trinket;Healer;Water's Beating Heart;Int;;On Use;Halls of Infusion
+Trinket;Caster;Spoils of Neltharus;Int;;On Use;Neltharus
+Trinket;RDPS;Erupting Spear Fragment;Agi|Int;;On Use;Neltharus
+Trinket;MDPS;Mutated Magmammoth Scale;Agi|Str;;Proc;Neltharus
+Trinket;MDPS;Homeland Raid Horn;Agi|Str;;On Use;Uldaman
+Trinket;Tank;Inexorable Resonator;Stamina;;Proc;Uldaman
+Trinket;Caster;Time-Breaching Talon;Haste;;On Use;Uldaman
+Trinket;Tank;Lingering Sporepods;Agi|Str;;Proc;Underrot
+Trinket;RDPS;Rotcrusted Voodoo Doll;Int;;On Use;Underrot
+Trinket;MDPS;Vial of Animated Blood;Mastery;;On Use;Underrot
+Trinket;MDPS;Harlan's Loaded Dice;Agi;;Proc;Freehold
+Trinket;Tank;Shard of Rokmora;Agi|Str;;On Use;Neltharion's Lair
+Trinket;MDPS;Mark of Dargrul;Crit;;Proc;Neltharion's Lair
+Trinket;Tank;Talisman of the Cragshaper;Vers;;On Use;Neltharion's Lair
+Trinket;RDPS;Naraxas' Spiked Tongue;Mastery;;Proc;Neltharion's Lair
+Trinket;Tank;Heart of Thunder;Vers;;On Use;Vortex Pinnacle
+Trinket;Healer;Rainsong;Vers;;Proc;Vortex Pinnacle
