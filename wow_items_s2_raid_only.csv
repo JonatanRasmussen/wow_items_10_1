@@ -1,0 +1,96 @@
+*Slot;Type;*Item;Main Stat;Operator;Sec Stat;Dungeon
+Head;Cloth;Attendant's Concocting Cover;H;>>;M;Amalgamation
+Shoulder;Cloth;Mystic's Scalding Frame;M;>>;V;Zaqali
+Chest;Cloth;Reanimator's Wicked Cassock;M;>>;H;Kazzara
+Wrist;Cloth;Clasps of the Diligent Steward;C;>>;H;Zskarn
+Wrist;Cloth;Unstable Vial Handlers;C;>>;M;Amalgamation
+Hands;Cloth;Phoenix-Plume Gloves;V;>>;H;Zaqali
+Waist;Cloth;Discarded Creation's Restraint;H;>>;V;Experiments
+Waist;Cloth;Sash of Abandoned Hope;C;>>;V;Kazzara
+Legs;Cloth;Coattails of the Rightful Heir;V;>;M;Sarkareth
+Feet;Cloth;Sandals of Ancient Fury;V;>>;C;Rashok
+Feet;Cloth;Treads of Fractured Realities;V;>>;H;Neltharion
+Head;Leather;Violent Gravemask;M;>>;V;Kazzara
+Shoulder;Leather;Neldris's Sinewy Scapula;H;>>;V;Experiments
+Chest;Leather;Warlord's Volcanic Vest;C;>>;M;Zaqali
+Wrist;Leather;Bloodstench Skinguards;V;>>;H;Kazzara
+Wrist;Leather;Cuffs of the Savage Serpent;V;>>;M;Magmorax
+Hands;Leather;Oathbreaker's Obsessive Gauntlets;V;>>;C;Sarkareth
+Waist;Leather;Elder's Volcanic Binding;V;>>;H;Rashok
+Waist;Leather;Oblivion's Immortal Coil;C;>>;M;Sarkareth
+Legs;Leather;Tassets of Blistering Twilight;M;>>;C;Amalgamation
+Feet;Leather;Failed Applicant's Footpads;C;>>;V;Zskarn
+Feet;Leather;Flamebound Huntsman's Footpads;V;>>;M;Zaqali
+Head;Mail;Gatecrasher Giant's Coif;H;>>;M;Zaqali
+Shoulder;Mail;Kazzara's Grafted Companion;C;>>;H;Kazzara
+Chest;Mail;Cuirass of Meticulous Mixture;V;>>;H;Amalgamation
+Wrist;Mail;Boulder-Tossing Bands;H;>>;C;Zaqali
+Wrist;Mail;Shackles of the Shadowed Bastille;H;>>;V;Rashok
+Hands;Mail;Grasps of Welded Anguish;M;>>;H;Kazzara
+Waist;Mail;Gloomfused Chemistry Belt;V;>>;M;Amalgamation
+Waist;Mail;Hydratooth Girdle;V;>>;C;Magmorax
+Legs;Mail;Scalecommander's Ebon Schynbalds;C;>>;V;Sarkareth
+Feet;Mail;Crechebound Soldier's Boots;M;>>;H;Sarkareth
+Feet;Mail;Exacting Augmenter's Sabatons;M;>>;C;Experiments
+Head;Plate;Unyielding Goliath's Burgonet;M;>>;V;Rashok
+Shoulder;Plate;Shoulderplates of Planar Isolation;C;>>;M;Amalgamation
+Chest;Plate;Sarkareth's Abyssal Embrace;M;>>;C;Sarkareth
+Wrist;Plate;Bonds of Desperate Ascension;H;>>;C;Sarkareth
+Wrist;Plate;Manacles of Cruel Progress;H;>>;M;Experiments
+Hands;Plate;Twisted Vision's Demigaunts;V;>>;M;Neltharion
+Waist;Plate;Recycled Golemskin Waistguard;H;>>;M;Zskarn
+Waist;Plate;Seal of the Defiant Hordes;H;>>;C;Zaqali
+Legs;Plate;Obsidian Guard's Chausses;H;>>;V;Zaqali
+Feet;Plate;Dreadrift Stompers;C;>>;V;Kazzara
+Feet;Plate;Spittle-Resistant Sollerets;C;>>;H;Magmorax
+Back;Back;Etchings of the Captive Revenant;C;>>;H;Kazzara
+Back;Back;Drape of the Dracthyr Trials;V;>>;M;Zskarn
+Back;Back;Voice of the Silent Star;C;>>;H;Sarkareth
+Neck;Neck;Kagni's Scorching Talisman;C;>>;H;Zaqali
+Neck;Neck;Magmorax's Fourth Collar;M;>>;V;Magmorax
+Finger;Finger;Entropic Convergence Loop;M;>>;H;Amalgamation
+Finger;Finger;Tormentor's Siphoning Signet;V;>>;C;Rashok
+Finger;Finger;Onyx Impostor's Birthright;C;>>;H;Neltharion
+One Hand;Dagger - Agi;Hellsteel Mutilator;H;>>;V;Kazzara
+One Hand;Dagger - Agi;Fang of the Sundered Flame;V;>>;C;Sarkareth
+One Hand;Dagger - Int;Zskarn's Autopsy Scalpel;C;>>;M;Zskarn
+One Hand;Fist Weapon - Agi;Claws of the Blazing Behemoth;M;>>;H;Magmorax
+One Hand;1H Axe - Agi;Wallclimber's Incursion Hatchet;C;>>;V;Zaqali
+One Hand;1H Axe - Str;Proctor's Tactical Cleaver;H;>;C;Zskarn
+One Hand;1H Mace - Str;Scholar's Thinking Cudgel;V;>>;H;Amalgamation
+One Hand;1H Mace - Int;Bloodfire Extraction Conduit;H;>>;V;Rashok
+One Hand;1H Mace - Int;Lavaflow Control Rod;H;>>;V;Magmorax
+One Hand;Warglaives;Rionthus's Bladed Visage;H;>>;C;Experiments
+Two Hand;2H Axe - Str;Ashkandur: Fall of the Brotherhood;M;~;C;Neltharion
+Two Hand;Polearm - Str;Infernal Shadelance;H;>;M;Kazzara
+Two Hand;Polearm - Agi;Djaruun: Pillar of the Elder Flame;H;>>;M;Rashok
+Two Hand;Staff - Agi;Obsidian Stirring Staff;V;>>;M;Amalgamation
+Two Hand;Staff - Int;Erethos: the Empty Promise;V;>>;H;Sarkareth
+Two Hand;Bow;Brutal Dragonslayer's Trophy;C;>>;H;Zaqali
+Two Hand;Gun;Failure Disposal Cannon;H;~;M;Zskarn
+Off-hand;OH - Int;Thadrion's Erratic Arcanotrode;M;>>;H;Experiments
+Off-hand;OH - Int;Echo's Maddening Volume;M;>>;H;Neltharion
+Off-hand;Shield;Experiment 1: Kitewing;V;>>;C;Experiments
+Off-hand;Shield;Calamity's Herald;M;>>;H;Neltharion
+Trinket;Tank;Enduring Dreadplate;Agi|Str;;On Use;Kazzara
+Trinket;All;Screaming Black Dragonscale;All;;Proc;Kazzara
+Trinket;MDPS;Elementium Pocket Anvil;Agi|Str;;On Use;Amalgamation
+Trinket;RDPS;Vessel of Searing Shadow;Int;;Proc;Amalgamation
+Trinket;All;Ominous Chromatic Essence;All;;Passive;Experiments
+Trinket;MDPS;Zaqali Chaos Grapnel;Str;;On Use;Zaqali
+Trinket;Healer;Rashok's Molten Heart;Int;;Proc;Rashok
+Trinket;MDPS;Dragonfire Bomb Dispenser;Agi;;On Use;Zskarn
+Trinket;RDPS;Igneous Flowstone;Agi|Int;;Passive;Magmorax
+Trinket;Tank | Healer;Ward of Faceless Ire;All;;On Use;Neltharion
+Trinket;All;Neltharion's Class trinket;All;;Proc;Neltharion
+Trinket;All;Beacon to the Beyond;M;;On Use;Sarkareth
+Hands;Tier;Mixing;Tier;;Tier;Experiments
+Legs;Tier;Cooling;Tier;;Tier;Rashok
+Chest;Tier;Ventilation;Tier;;Tier;Zskarn
+Head;Tier;Melting;Tier;;Tier;Magmorax
+Shoulder;Tier;Corrupting;Tier;;Tier;Neltharion
+Hands;Tier;OmniMixing;Tier;;Tier;Sarkareth
+Legs;Tier;OmniCooling;Tier;;Tier;Sarkareth
+Chest;Tier;OmniVentilation;Tier;;Tier;Sarkareth
+Head;Tier;OmniMelting;Tier;;Tier;Sarkareth
+Shoulder;Tier;OmniCorrupting;Tier;;Tier;Sarkareth

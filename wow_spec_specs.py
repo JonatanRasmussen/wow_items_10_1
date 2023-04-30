@@ -4,7 +4,7 @@ import pandas as pd
 filename = "wow_weapon_proficiencies"
 df = pd.read_csv(f'{filename}.csv', index_col=0, sep=';')
 # Print the first 5 rows of the DataFrame
-print(df.head())
+#print(df.head())
 
 death_knight_blood = 'Blood Death Knight'
 death_knight_frost = 'Frost Death Knight'
@@ -33,8 +33,8 @@ priest_discipline = 'Discipline Priest'
 priest_holy = 'Holy Priest'
 priest_shadow = 'Shadow Priest'
 rogue_assassination = 'Assassination Rogue'
-rogue_outlaw = 'Outlaw Rogue'
 rogue_subtlety = 'Subtlety Rogue'
+rogue_outlaw = 'Outlaw Rogue'
 shaman_elemental = 'Elemental Shaman'
 shaman_enhancement = 'Enhancement Shaman'
 shaman_restoration = 'Restoration Shaman'
@@ -56,7 +56,7 @@ mage = [mage_arcane, mage_fire, mage_frost]
 monk = [monk_brewmaster, monk_mistweaver, monk_windwalker]
 paladin = [paladin_holy, paladin_protection, paladin_retribution]
 priest = [priest_discipline, priest_holy, priest_shadow]
-rogue = [rogue_assassination, rogue_outlaw, rogue_subtlety]
+rogue = [rogue_assassination, rogue_subtlety, rogue_outlaw]
 shaman = [shaman_elemental, shaman_enhancement, shaman_restoration]
 warlock = [warlock_affliction, warlock_demonology, warlock_destruction]
 warrior = [warrior_arms, warrior_fury, warrior_protection]
@@ -243,8 +243,8 @@ def initialize_spec_objects():
     l.append(WoWspec('Holy Priest'))
     l.append(WoWspec('Shadow Priest'))
     l.append(WoWspec('Assassination Rogue'))
-    l.append(WoWspec('Outlaw Rogue'))
     l.append(WoWspec('Subtlety Rogue'))
+    l.append(WoWspec('Outlaw Rogue'))
     l.append(WoWspec('Elemental Shaman'))
     l.append(WoWspec('Enhancement Shaman'))
     l.append(WoWspec('Restoration Shaman'))
