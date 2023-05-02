@@ -1,10 +1,6 @@
 import pandas as pd
 from wow_spec_specs import initialize_spec_objects
 
-# Load CSV into a Pandas DataFrame with ";" as the delimiter
-filename = "wow_items_s2_dungeons_only"
-filename = "wow_items_s2_raid_only"
-df = pd.read_csv(f'{filename}.csv', sep=';')
 # Print the first 5 rows of the DataFrame
 #print(df.head())
 name = '*Item'
@@ -12,8 +8,9 @@ catagory = 'Dungeon'
 itemtype = '*Slot'
 armor_tier = 'Type'
 catagory_mainstat = 'Main Stat'
+vault_sum = 'M+ Great Vault slot'
 
-shortened_dungeons = ['Brackenhide', 'Halls of Inf', 'Neltharus', 'Uldaman', 'Freehold', "Nelth's Lair", 'Underrot', 'Vortex Pin']
+shortened_dungeons = ['Brackenhide', 'Halls of Inf.', 'Neltharus', 'Uldaman', 'Freehold', "Nelth's Lair", 'Underrot', 'Vortex Pin.']
 raidboss_order = ['Kazzara', 'Amalgamation', 'Experiments', 'Zaqali', 'Rashok', 'Zskarn', 'Magmorax', 'Neltharion', 'Sarkareth']
 
 #%%
@@ -159,7 +156,13 @@ def rename_instances_in_df(df):
         df[catagory].replace(dungeon, shortened_dungeons[i], inplace=True)
     return df
 
+
 def calculate_percentages(df_counts):
+    column_sums = df_counts.sum()
+
+    # add a new row containing the column sum to the dataframe
+    df_counts = pd.concat([df_counts, pd.DataFrame(column_sums).T.rename(index={0: vault_sum})])
+
     # calculate the row sum
     row_sum = df_counts.iloc[:, 0:].sum(axis=1)
     # replace each element with its percentage
@@ -169,6 +172,7 @@ def calculate_percentages(df_counts):
     for small_percentage in ["0%"]:
         df_counts.replace(small_percentage, "-", inplace=True)
     return df_counts
+
 
 def reorder_dataframe_columns(df, column_order_list):
     existing_columns = df.columns.tolist()
@@ -197,7 +201,7 @@ def generate_counts_table(df, instance):
     df_counts = calculate_percentages(df_counts)
     df_counts = reorder_columns(df_counts)
     # Reorder the rows
-    df_counts = df_counts.reindex(shortened_dungeons)
+    df_counts = df_counts.reindex(shortened_dungeons+[vault_sum])
     return df_counts
 
 def generate_pivot_table(df, instance):
@@ -262,7 +266,10 @@ def iterate_over_specs(df):
     count_tables = {}
     pivot_tables = {}
     instances = initialize_spec_objects()
+    counter = 1
     for instance in instances:
+        print(f'({counter}/{len(instances)}): Processing {instance.specname}')
+        counter += 1
         pivot_table = generate_pivot_table(df, instance)
         pivot_tables[instance.specname] = pivot_table
         count_table = generate_counts_table(df, instance)
@@ -288,8 +295,45 @@ def fix_table_add(element):
 def replace_A_with_B(s):
     return s.replace('%', '%: ')
 
+def add_caret(df_for_reddit):
+    #for col in df_for_reddit.columns:
+    #    df_for_reddit[col] = '^' + df_for_reddit[col].astype(str)
+    #return df_for_reddit
+    #new_df = df_for_reddit.applymap(lambda x: ' '.join(['^' + w if w else '' for w in x.split()]))
+    #return new_df
+
+    # Add caret to column headers
+    new_cols = []
+    for col in df_for_reddit.columns:
+        words = col.split()
+        for i in range(len(words)):
+            words[i] = '^' + words[i]
+        new_cols.append(' '.join(words))
+    df_for_reddit.columns = new_cols
+
+    # Add caret to row indexes and values
+    for i in range(len(df_for_reddit.index)):
+        row_name = df_for_reddit.index[i]
+        words = row_name.split()
+        for j in range(len(words)):
+            words[j] = '^' + words[j]
+        new_row_name = ' '.join(words)
+        df_for_reddit = df_for_reddit.rename(index={row_name: new_row_name})
+
+        for j in range(len(df_for_reddit.columns)):
+            col_name = df_for_reddit.columns[j]
+            row_value = df_for_reddit.iloc[i, j]
+            if isinstance(row_value, str):
+                words = row_value.split()
+                for k in range(len(words)):
+                    words[k] = '^' + words[k]
+                new_value = ' '.join(words)
+                df_for_reddit.iat[i, j] = new_value
+    return df_for_reddit
+
 def pandas_to_reddit_table_single(specname, single_df):
     # Get column names and add separator row
+    #single_df = add_caret(single_df)
     separator = ' | '.join(['---'] * (len(single_df.columns)+1))
     header = ' | '.join([''] + list(single_df.columns) + [''])
     table = [header, separator]
@@ -309,6 +353,8 @@ def pandas_to_reddit_table_single(specname, single_df):
 
 def pandas_to_reddit_table_double(specname, df_percents, df_stats):
     # Get column names and add separator row
+    #df_percents = add_caret(df_percents)
+    #df_stats = add_caret(df_stats)
     separator = ' | '.join(['---'] * (len(df_percents.columns)+1))
     header = ' | '.join([''] + list(df_percents.columns) + [''])
     table = [header, separator]
@@ -341,7 +387,7 @@ def pandas_to_reddit_table_double(specname, df_percents, df_stats):
 def outside_table(specname):
     return f'\n  \n***\n  \n&nbsp;  \n  \n#{specname}  \n  \n'
 
-def main_function(df):
+def main_function(df, mode):
     table_strings = {}
     pivot_tables, count_tables = iterate_over_specs(df)
     previous_table_string = ""
@@ -352,10 +398,21 @@ def main_function(df):
         #new_table = count_table.add(pivot_table)
         #new_table = new_table.applymap(replace_A_with_B)
         #new_table.replace("--", "-", inplace=True)
-        #table_string = pandas_to_reddit_table(specname, new_table)
-        table_string = pandas_to_reddit_table_double(specname, count_table, pivot_table)
-        #table_string = pandas_to_reddit_table_single(specname, count_table)
-        table_string = pandas_to_reddit_table_single(specname, pivot_table)
+        #table_string = pandas_to_reddit_table(specname, new_table
+        if mode == "count":
+            table_string = pandas_to_reddit_table_single(specname, count_table)
+        elif mode == "pivot":
+            table_string = pandas_to_reddit_table_single(specname, pivot_table)
+        else:
+            table_string = ""
+        #table_string = table_string.replace("^^", "^")
+        table_string = table_string.replace("| ", "|")
+        table_string = table_string.replace(" |", "|")
+        table_string = table_string.replace("Hands", "Hand")
+        #table_string = table_string.replace("Trinket", "Trin-ket")
+        #table_string = table_string.replace("Shoulder", "Sho-ulder")
+        table_string = table_string.replace("Amalgamation", "Amalga")
+        table_string = table_string.replace("Experiments", "Experim.")
         if previous_table_string == table_string:
             new_spec_title = previous_spec_name + ' + ' + specname
             table_strings.pop(previous_spec_name)
@@ -372,4 +429,9 @@ def main_function(df):
 
 #%%
 if __name__ == "__main__":
-    main_function(df)
+    mode = "count"
+    #mode = "pivot"
+    filename = "wow_items_s2_dungeons_only"
+    #filename = "wow_items_s2_raid_only"
+    df = pd.read_csv(f'{filename}.csv', sep=';')
+    main_function(df, mode)

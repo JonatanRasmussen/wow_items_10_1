@@ -170,7 +170,7 @@ One Hand;Fist Weapon - Agi;Bile-Stained Crawg Tusks;-;;-;Underrot
 One Hand;1h Axe - Str;Tongue Hacker;V;>;H;Halls of Infusion
 One Hand;1h Axe - Str;Axe of the Eclipse;M;>;C;Vortex Pinnacle
 One Hand;1h Mace - Str;Sharkbait's Fishhook;V;;C;Freehold
-One Hand;1h Mace - T | D;Forgestorm;H;~;C;Neltharus
+One Hand;1h Mace - Agi | Str;Forgestorm;H;~;C;Neltharus
 One Hand;1H Mace - Int;Decatriarch's Bone Pestle;M;>;C;Brackenhide Hollow
 One Hand;1H Mace - Int;Leaxa's Thought-Piercer;H;;C;Underrot
 One Hand;1h Mace - Agi;Bouldersplitter;V;>;M;Uldaman
@@ -200,6 +200,29 @@ Off-hand;Shield;Targe of the Ancient Warder;C;;M;Underrot
 Off-hand;Shield;Qalashi Defender;C;>;M;Neltharus
 Off-hand;Shield;Stout Shield;C;>;M;Uldaman
 Off-hand;Shield;Monstrous Gluttony;V;~;C;Neltharion's Lair
+Trinket;Tank;Treemouth's Festering Splinter;Agi|Str;;On Use;Brackenhide Hollow
+Trinket;MDPS;Frenzying Signol Flare;Str;;Proc;Brackenhide Hollow
+Trinket;RDPS;Idol of Pure Decay;Int;;Proc;Brackenhide Hollow
+Trinket;All;Irideus Fragment;Mastery;;On Use;Halls of Infusion
+Trinket;MDPS;Globe of Jagged Ice;Agi;;On Use;Halls of Infusion
+Trinket;Healer;Water's Beating Heart;Int;;On Use;Halls of Infusion
+Trinket;Caster;Spoils of Neltharus;Int;;On Use;Neltharus
+Trinket;RDPS;Erupting Spear Fragment;Agi|Int;;On Use;Neltharus
+Trinket;MDPS;Mutated Magmammoth Scale;Agi|Str;;Proc;Neltharus
+Trinket;MDPS;Homeland Raid Horn;Agi|Str;;On Use;Uldaman
+Trinket;Tank;Inexorable Resonator;Stamina;;Proc;Uldaman
+Trinket;Caster;Time-Breaching Talon;Haste;;On Use;Uldaman
+Trinket;Tank;Lingering Sporepods;Agi|Str;;Proc;Underrot
+Trinket;RDPS;Rotcrusted Voodoo Doll;Int;;On Use;Underrot
+Trinket;MDPS;Vial of Animated Blood;Mastery;;On Use;Underrot
+Trinket;MDPS;Harlan's Loaded Dice;Agi;;Proc;Freehold
+Trinket;Tank;Shard of Rokmora;Agi|Str;;On Use;Neltharion's Lair
+Trinket;MDPS;Mark of Dargrul;Crit;;Proc;Neltharion's Lair
+Trinket;Tank;Talisman of the Cragshaper;Vers;;On Use;Neltharion's Lair
+Trinket;RDPS;Naraxas' Spiked Tongue;Mastery;;Proc;Neltharion's Lair
+Trinket;Tank;Heart of Thunder;Vers;;On Use;Vortex Pinnacle
+Trinket;Healer;Rainsong;Vers;;Proc;Vortex Pinnacle
+*Slot;Type;*Item;Main Stat;Operator;Sec Stat;Dungeon
 Head;Cloth;Attendant's Concocting Cover;H;>>;M;Amalgamation
 Shoulder;Cloth;Mystic's Scalding Frame;M;>>;V;Zaqali
 Chest;Cloth;Reanimator's Wicked Cassock;M;>>;H;Kazzara
@@ -249,9 +272,9 @@ Back;Back;Drape of the Dracthyr Trials;V;>>;M;Zskarn
 Back;Back;Voice of the Silent Star;C;>>;H;Sarkareth
 Neck;Neck;Kagni's Scorching Talisman;C;>>;H;Zaqali
 Neck;Neck;Magmorax's Fourth Collar;M;>>;V;Magmorax
-Finger;Finger;Entropic Convergence Loop;M;>>;H;Amalgamation
-Finger;Finger;Tormentor's Siphoning Signet;V;>>;C;Rashok
-Finger;Finger;Onyx Impostor's Birthright;C;>>;H;Neltharion
+Ring;Ring;Entropic Convergence Loop;M;>>;H;Amalgamation
+Ring;Ring;Tormentor's Siphoning Signet;V;>>;C;Rashok
+Ring;Ring;Onyx Impostor's Birthright;C;>>;H;Neltharion
 One Hand;Dagger - Agi;Hellsteel Mutilator;H;>>;V;Kazzara
 One Hand;Dagger - Agi;Fang of the Sundered Flame;V;>>;C;Sarkareth
 One Hand;Dagger - Int;Zskarn's Autopsy Scalpel;C;>>;M;Zskarn
@@ -275,37 +298,23 @@ Off-hand;Shield;Experiment 1: Kitewing;V;>>;C;Experiments
 Off-hand;Shield;Calamity's Herald;M;>>;H;Neltharion
 Trinket;Tank;Enduring Dreadplate;Agi|Str;;On Use;Kazzara
 Trinket;All;Screaming Black Dragonscale;All;;Proc;Kazzara
-Trinket;MPDS;Elementium Pocket Anvil;Agi|Str;;On Use;Amalgamation
+Trinket;MDPS;Elementium Pocket Anvil;Agi|Str;;On Use;Amalgamation
 Trinket;RDPS;Vessel of Searing Shadow;Int;;Proc;Amalgamation
 Trinket;All;Ominous Chromatic Essence;All;;Passive;Experiments
-Trinket;MPDS;Zaqali Chaos Grapnel;Str;;On Use;Zaqali
+Trinket;MDPS;Zaqali Chaos Grapnel;Str;;On Use;Zaqali
 Trinket;Healer;Rashok's Molten Heart;Int;;Proc;Rashok
-Trinket;MPDS;Dragonfire Bomb Dispenser;Agi;;On Use;Zskarn
+Trinket;MDPS;Dragonfire Bomb Dispenser;Agi;;On Use;Zskarn
 Trinket;RDPS;Igneous Flowstone;Agi|Int;;Passive;Magmorax
-Trinket;T | H;Ward of Faceless Ire;All;;On Use;Neltharion
-Trinket;Class;Neltharion's Call to Chaos;Crit;;Proc;Neltharion
-Trinket;Class;Neltharion's Call to Dominance;Haste;;Proc;Neltharion
-Trinket;Class;Neltharion's Call to Suffering;Vers;;Proc;Neltharion
+Trinket;Tank | Healer;Ward of Faceless Ire;All;;On Use;Neltharion
+Trinket;All;Neltharion's Class trinket;All;;Proc;Neltharion
 Trinket;All;Beacon to the Beyond;M;;On Use;Sarkareth
-Trinket;Tank;Treemouth's Festering Splinter;Agi|Str;;On Use;Brackenhide Hollow
-Trinket;MDPS;Frenzying Signol Flare;Str;;Proc;Brackenhide Hollow
-Trinket;RDPS;Idol of Pure Decay;Int;;Proc;Brackenhide Hollow
-Trinket;All;Irideus Fragment;Mastery;;On Use;Halls of Infusion
-Trinket;MDPS;Globe of Jagged Ice;Agi;;On Use;Halls of Infusion
-Trinket;Healer;Water's Beating Heart;Int;;On Use;Halls of Infusion
-Trinket;Caster;Spoils of Neltharus;Int;;On Use;Neltharus
-Trinket;RDPS;Erupting Spear Fragment;Agi|Int;;On Use;Neltharus
-Trinket;MDPS;Mutated Magmammoth Scale;Agi|Str;;Proc;Neltharus
-Trinket;MDPS;Homeland Raid Horn;Agi|Str;;On Use;Uldaman
-Trinket;Tank;Inexorable Resonator;Stamina;;Proc;Uldaman
-Trinket;Caster;Time-Breaching Talon;Haste;;On Use;Uldaman
-Trinket;Tank;Lingering Sporepods;Agi|Str;;Proc;Underrot
-Trinket;RDPS;Rotcrusted Voodoo Doll;Int;;On Use;Underrot
-Trinket;MDPS;Vial of Animated Blood;Mastery;;On Use;Underrot
-Trinket;MDPS;Harlan's Loaded Dice;Agi;;Proc;Freehold
-Trinket;Tank;Shard of Rokmora;Agi|Str;;On Use;Neltharion's Lair
-Trinket;MDPS;Mark of Dargrul;Crit;;Proc;Neltharion's Lair
-Trinket;Tank;Talisman of the Cragshaper;Vers;;On Use;Neltharion's Lair
-Trinket;RDPS;Naraxas' Spiked Tongue;Mastery;;Proc;Neltharion's Lair
-Trinket;Tank;Heart of Thunder;Vers;;On Use;Vortex Pinnacle
-Trinket;Healer;Rainsong;Vers;;Proc;Vortex Pinnacle
+Hands;Tier;Mixing;Tier;;Tier;Experiments
+Legs;Tier;Cooling;Tier;;Tier;Rashok
+Chest;Tier;Ventilation;Tier;;Tier;Zskarn
+Head;Tier;Melting;Tier;;Tier;Magmorax
+Shoulder;Tier;Corrupting;Tier;;Tier;Neltharion
+Hands;Tier;OmniMixing;Tier;;Tier;Sarkareth
+Legs;Tier;OmniCooling;Tier;;Tier;Sarkareth
+Chest;Tier;OmniVentilation;Tier;;Tier;Sarkareth
+Head;Tier;OmniMelting;Tier;;Tier;Sarkareth
+Shoulder;Tier;OmniCorrupting;Tier;;Tier;Sarkareth
